@@ -1,0 +1,34 @@
+# Node.js dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Build outputs
+/dist/
+/build/
+/out/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Three.js specific
+# (if you build or bundle Three.js yourself)
+*.min.js.map
